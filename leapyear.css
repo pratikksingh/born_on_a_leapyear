@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Brygada+1918:wght@500&display=swap");
+
+body {
+  text-align: center;
+  display: block;
+  margin: auto;
+  max-width: 600px;
+  background-color: #3f3c5a;
+}
+
+#main {
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  display: block;
+  padding-top: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  background-color: #8b88aa;
+  border-radius: 1rem;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#btn {
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: rgb(197, 201, 204);
+  border-style: inherit;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+#output {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 1rem;
+  max-width: 13rem;
+  padding: 5rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 2rem;
+  background-color: rgb(197, 201, 204);
+  border-radius: 1rem;
+  font-family: "Brygada 1918", serif;
+  font-weight: 900;
+}
+
+#para {
+  text-align: left;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  max-width: 13rem;
+}
+
+#dateRequired {
+  border-radius: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  background-color: rgb(197, 201, 204);
+  border-style: inherit;
+}
