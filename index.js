@@ -1,8 +1,13 @@
+console.log("index js file is being loaded");
+
 const dateOfBirth = document.querySelector("#dateRequired");
 const output = document.querySelector("#output");
 const checkButton = document.querySelector("#btn");
 
 checkButton.addEventListener("click", function leapYearOrNot() {
+  console.log("inside event listener");
+  document.getElementById("output").innerText = " ";
+
   let dateOfBirthString = dateOfBirth.value.toString();
 
   let requiredFormat = dateOfBirthString.split("-")[0];
