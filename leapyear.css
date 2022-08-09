@@ -52,6 +52,7 @@ body {
   border-radius: 1rem;
   font-family: "Brygada 1918", serif;
   font-weight: 900;
+  cursor: pointer;
 }
 
 #para {
