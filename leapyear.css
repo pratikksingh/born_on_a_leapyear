@@ -37,6 +37,7 @@ body {
   background-color: rgb(197, 201, 204);
   border-style: inherit;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
 }
 
 #output {
@@ -52,7 +53,6 @@ body {
   border-radius: 1rem;
   font-family: "Brygada 1918", serif;
   font-weight: 900;
-  cursor: pointer;
 }
 
 #para {
